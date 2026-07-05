@@ -32,7 +32,6 @@ int isfull(){
 
 // Push element into stack
 void push(int val){
-
     if(isfull()){
         printf("The stack is full, unable to insert %d\n", val);
     }
@@ -46,7 +45,6 @@ void push(int val){
         printf("Successfully inserted %d\n", val);
     }
 }
-
 // Pop element from stack
 void pop(){
 
@@ -63,7 +61,6 @@ void pop(){
         printf("Successfully deleted %d\n", val);
     }
 }
-
 // Peek element
 void peek(){
 
